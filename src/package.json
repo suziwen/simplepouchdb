@@ -1,0 +1,31 @@
+{
+  "main": "index.html",
+  "name": "traytestnwjs",
+  "description": "test",
+  "version": "1.0.0",
+  "keywords": [
+    "test"
+  ],
+  "window": {
+    "title": "test",
+    "frame": true,
+    "width": 400,
+    "icon": "a.png",
+    "transparent": true,
+    "height": 200,
+    "position": "center",
+    "resizable": true,
+    "show": true,
+    "minimumFontSize": 18,
+    "min_width": 400,
+    "min_height": 200
+  },
+  "webkit": {
+    "minimumFontSize": 18,
+    "plugin": true
+  },
+  "chromium-args": "--NODE_TLS_REJECT_UNAUTHORIZED=0",
+  "devDependencies": {
+    "sass-brunch": "github:brunch/sass-brunch"
+  }
+}
